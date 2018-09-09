@@ -1,0 +1,21 @@
+{
+  "name": "jeas-cli",
+  "version": "0.0.14",
+  "description": "",
+  "main": "cli.js",
+  "bin": {
+    "jeas": "cli.js"
+  },
+  "scripts": {
+    "start": "budo index.js",
+    "test": "node test.js"
+  },
+  "author": "habib bellia jeas.io",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.2.0"
+  }
+}
